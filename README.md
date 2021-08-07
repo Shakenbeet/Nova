@@ -1,6 +1,6 @@
 # Nova
 
-A pseudo game-store platform created by Prodski
+A pseudo game-store platform created by Shakenbeet (AKA: Prodski)
 
 ## Dependencies
 
