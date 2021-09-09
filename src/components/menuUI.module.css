@@ -1,24 +1,18 @@
-.gameButton {
-    margin: 10px;
-    resize: both;
-    max-width: 100px;
-    max-height: 100px;
-    outline: none;
-    border: none;
-    background: none;
-    outline: none;
+.navButton {
+    display: inline-block;
     border-radius: 10px;
     border: 2px solid #3498db;
     border-color: #2ecc71;
     padding: 7px 11px;
     transition: 0.25s;
     font-size: 16px;
+    background-color: transparent;
     font-weight: 500px;
     color: white;
     position: relative;
 }
 
-.gameButton:hover {
+.navButton:hover {
     background: #2ecc71;
     cursor: pointer;
     padding: 7px 11px;
@@ -38,17 +32,17 @@
 
 .navBar {
     max-height: 100%;
-    max-width: 10%;
     padding: 10px;
-    resize: both;
-    position: fixed;
+    
+    position: fixed; /* FIXME: DOESNT POSITION CORRECTLY ON WINDOW RESIZE */
+
     z-index: 1;
     left: 20px;
     background-color: #010203;
     transition: .5s ease;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     border-radius: 20px;
 }
 
@@ -60,6 +54,7 @@
 
 .homescreenH1 {
     font-family: 'Roboto', sans-serif;
+    font-size: 4vw
 }
 
 .homeScreenH6 {

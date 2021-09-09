@@ -4,12 +4,12 @@ import styles from './menuUI.module.css'
 
 import LucyGameLogo from '../assets/lucy.png'
 
-const GameButton = (props) => {
+const SidebarButton = (props) => {
     return(
-        <button onClick={props.onclick} title={props.title} className={styles.gameButton}>
-            <GameImages src={props.src}/>
+        <button onClick={props.onclick} className={styles.navButton}>
+            <h2 className={styles.homeScreenH1}>{props.buttonText}</h2>
         </button>
     );
 };
 
-export default GameButton;
+export default SidebarButton;

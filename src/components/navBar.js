@@ -1,5 +1,5 @@
 import React from 'react';
-import GameButton from './gameButton';
+import GameButton from './navigationButton';
 
 import logo from '../assets/novaLogo.png'
 import LucyGameIcon from '../assets/lucy.png';
@@ -13,10 +13,10 @@ const Navbar = (props) => {
     return (
         <div className={styles.navBar}>
             <img src={logo} className={styles.logo}/>
-            <GameButton title="The Hobbit Video Game" src={DragonGameIcon}/>
-            <GameButton title="Asteroid XL" src={AsteroidGameIcon}/>
-            <GameButton title="Flappuccino" src={FlapGameIcon}/>
-            <GameButton title="Lucy Simulator" src={LucyGameIcon}/>
+            <GameButton buttonText="🏠 Home"/>
+            <GameButton buttonText="🎮 Games"/>
+            <GameButton buttonText="📱 Apps"/>
+            <GameButton buttonText="👤 Account"/>
         </div>
     );
 };
