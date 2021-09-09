@@ -1,4 +1,5 @@
 .navButton {
+    margin: 10px;
     display: inline-block;
     border-radius: 10px;
     border: 2px solid #3498db;
@@ -31,25 +32,26 @@
 }
 
 .navBar {
-    max-height: 100%;
     padding: 10px;
+    height: 100%;
     
-    position: fixed; /* FIXME: DOESNT POSITION CORRECTLY ON WINDOW RESIZE */
+    position: absolute; /* FIXME: DOESNT POSITION CORRECTLY ON WINDOW RESIZE */
 
     z-index: 1;
-    left: 20px;
+    left: 0;
+    top: 0;
     background-color: #010203;
     transition: .5s ease;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: left;
-    border-radius: 20px;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     resize: both;
+    align-self: center;
 }
 
 .homescreenH1 {

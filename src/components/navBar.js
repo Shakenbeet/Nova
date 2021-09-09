@@ -15,7 +15,7 @@ const Navbar = (props) => {
             <img src={logo} className={styles.logo}/>
             <GameButton buttonText="🏠 Home"/>
             <GameButton buttonText="🎮 Games"/>
-            <GameButton buttonText="📱 Apps"/>
+            <GameButton buttonText="📱 App"/>
             <GameButton buttonText="👤 Account"/>
         </div>
     );
