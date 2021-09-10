@@ -33,11 +33,14 @@
 
 .navBar {
     padding: 10px;
-    height: 100%;
-    
+    width: 150px;
+    height: 100vh;
+    float: left;
+    z-index: 100;
     position: absolute; /* FIXME: DOESNT POSITION CORRECTLY ON WINDOW RESIZE */
 
-    z-index: 1;
+    margin-left: 150;
+    
     left: 0;
     top: 0;
     background-color: #010203;

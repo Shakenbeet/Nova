@@ -2,10 +2,6 @@ import React from 'react';
 import GameButton from './navigationButton';
 
 import logo from '../assets/novaLogo.png'
-import LucyGameIcon from '../assets/lucy.png';
-import DragonGameIcon from '../assets/DragonGame.png';
-import AsteroidGameIcon from '../assets/AsteroidGame.png';
-import FlapGameIcon from '../assets/FlapGame.png'
 
 import styles from './menuUI.module.css'
 

@@ -1,17 +1,17 @@
 import logo from './assets/novaLogo.png';
 import './App.css';
-import Navbar from './components/navBar';
-import HomeScreen from './components/homeScreen'
+import Navbar from './components/navBar.js';
+import Routes from "./routes"
+
+import styles from './pages/pageUI.module.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <Navbar />
-        <HomeScreen />
-
-      </header>
+      <Navbar />
+      <div className="App-body">
+        <Routes />
+      </div>
     </div>
   );
 }
