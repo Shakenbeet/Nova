@@ -8,15 +8,3 @@
     font-family: 'Roboto', sans-serif;
     color: #2ecc71;
 }
-
-.parentDiv {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    overflow: hidden;
-}
